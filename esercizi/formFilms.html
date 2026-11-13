@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Form recensioni</title>
+	<link href="stileForm2.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="menu">
+		
+			<ul>
+			
+				<li><a href="#">Home</a></li>
+				<li><a href="#">I nostri cinema</a></li>
+				<li><a href="#">Le tue prenotazioni</a></li>
+			
+			</ul>
+		
+		</div>
+	
+		<img id="logo"src="https://vivimilano.corriere.it/wp-content/uploads/2018/10/uci-cinemas-bicocca-2.jpg?v=552045" />
+	
+		<form method="post" action="#" name="formFilm" id="formFilm">
+		
+			<fieldset>
+			
+				<legend class="legenda">Recensione</legend>
+				
+				<p>Titolo film da recensire: <input type="text" name="titolo" size="30"/></p>
+				
+				<p>Genere:
+				
+					<select name="genere">
+					
+						<option selected hidden>Scegli il genere del film</option>
+						<option value="ACT">Azione</option>
+						<option value="ANI">Animazione</option>
+						<option value="ADV">Avventura</option>
+						<option value="BIO">Biografico</option>
+						<option value="COM">Comico</option>
+						<option value="CMD">Commedia</option>
+						<option value="DOC">Documentario</option>
+						<option value="DRA">Drammatico</option>
+						<option value="SCI">Fantascienza</option>
+						<option value="FAN">Fantasy</option>
+						<option value="YEL">Giallo</option>
+						<option value="WAR">Guerra</option>
+						<option value="HOR">Horror</option>
+						<option value="MUS">Musical</option>
+						<option value="NOR">Noir</option>
+						<option value="POL">Poliziesco</option>
+						<option value="ROM">Romantico</option>
+						<option value="SPY">Spionaggio</option>
+						<option value="SPT">Sportivo</option>
+						<option value="HIS">Storico</option>
+						<option value="THR">Thriller</option>
+						<option value="WES">Western</option>
+					
+					</select>
+				
+				</p>
+				
+				<p>Anno di rilascio: <input type="number" name="numero" min="1900" max="2026" value="2000" /></p>
+				
+				<p>Regista: <input type="text" name="nReg" placeholder="Es: Quentin Tarantino" /></p>
+				
+				<p>Minutaggio (Durata film): 60 <input type="range" name="minute" min="60" max="280" value="140" />280</p>
+				
+				<p>Recensione personale:<br /> <textarea name="recensione" rows="10" cols="50" placeholder="Scrivi qui la tua recensione"></textarea>
+				
+				<p>Locandina: <input type="file" name="locandina" /></p>
+				
+				
+				<div id="invio">
+				
+					<div id="sx"><input class="sub" type="submit" value="Invia" /></div>
+					<div id="dx"><input class="reset" type="reset" value="Ripristina!" /></div>
+				
+				</div>
+				
+			
+			</fieldset>
+		
+		</form>
+	
+	</div>
+
+</body>
+
+</html>

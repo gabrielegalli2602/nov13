@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+	
+	background-color: gray;
+	
+}
+
+#formCorso {
+	
+	background-color: white;
+	
+}
+
+#container {
+	
+	width: 900px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#menu {
+	
+	margin: auto;
+	width: 900px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	background-color: orange;
+	
+}
+
+ul {
+	
+	
+	display: flex;
+	gap: 30px;
+	list-style: none;
+	
+}
+
+li:hover {
+	
+	background-color: red;
+	
+}
+
+a {
+	
+	font-family: Courier;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	
+}
+
+.legenda {
+	
+	text-align: center;
+	
+}
+
+footer {
+	
+	background-color: lightgray;
+	
+}
+
+footer a{
+	
+	font-family: Arial;
+	font-size: 15px;
+	color: black;
+	
+}
+
+#invio {
+	
+	height: 50px;
+	background-color: orange;
+	
+}
+
+.sub {
+	
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.sub:hover {
+	
+	background-color: white;
+	color: blue;
+	text-decoration: none;
+	
+}
+
+.reset {
+	
+	background-color: red;
+	text-decoration: none;
+	
+}
+
+.reset:hover {
+	
+	background-color: black;
+	color: red;
+	text-decoration: none;
+	
+}
+
+#sx {
+	
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	
+}
+
+#dx {
+	
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+	
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Form Iscrizione</title>
+	<link href="stileForm1.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="menu">
+		
+			<ul>
+			
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Chi siamo</a></li>
+				<li><a href="#">Corsi</a></li>
+			
+			</ul>
+		
+		</div>
+	
+		<form method="post" action="#" name="formCorso" id="formCorso">
+		
+			<fieldset id="datiA">
+			
+				<legend class="legenda">Dati anagrafici</legend>
+				
+				<p>Nome: <input type="text" name="nome" size="20" required/></p>
+				<p>Cognome: <input type="text" name="cognome" size="20" required/></p>
+				
+				<p>Data di nascita: <input type="date" name="dataN" /></p>
+				<p>Genere: <br />
+				
+					<input type="radio" name="genere" value="M" />Maschio<br/>
+					<input type="radio" name="genere" value="F" />Femmina<br/>
+					<input type="radio" name="genere" value="A" checked/>Altro
+				
+				</p>
+				
+				<p>Email: <input type="email" name="mail" placeholder="Scrivi qui la tua email" size="32" required/></p>
+			
+			</fieldset>
+			
+			<fieldset>
+			
+				<legend class="legenda">Informazioni corso</legend>
+			
+				<p>Corsi disponibili:
+					
+					<select name="corso">
+					
+						<option selected hidden>Scegli un corso</option>
+						<option value="informatica">Informatica</option>
+						<option value="cucina">Cucina</option>
+						<option value="musica">Musica</option>
+						<option value="arti">Arti Grafiche</option>
+						<option value="fotografia">Fotografia</option>
+					
+					</select>
+					
+				 </p>
+				 
+				 <p>Sede nazionale:
+					
+					<select name="sede">
+					
+						<option selected hidden>Scegli la sede di iscrizione</option>
+						<option value="MI">Milano</option>
+						<option value="RO">Roma</option>
+						<option value="BO">Bologna</option>
+						<option value="TO">Torino</option>
+						<option value="BA">Bari</option>
+					
+					</select>
+					
+				 </p>
+				 
+				 
+			
+			</fieldset>
+				
+			<fieldset>
+			
+				<legend class="legenda">Requisiti sconto</legend>
+				
+				<p>Situazione patrimoniale:
+				 
+				 	<input type="file" name="reddito" />
+				 
+				 </p>
+			
+			</fieldset>
+				 
+			<div id="invio">
+			
+				<div id="sx"><input class="sub" type="submit" value="Invia" /></div>
+				<div id="dx"><input class="reset" type="reset" value="Ripristina!" /></div>
+				
+			
+			</div>
+				 
+		
+		</form>
+		
+		<footer>
+		
+			E-mail di contatto: <a href="mailto:galli.gabriele2602@gmail.com">infoCorsi@gmail.com</a><br/>
+			Fax: 020836402<br/>
+			Telefono: <a href="tel:+39020836401">020836401</a>
+			
+		
+		</footer>
+	
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+	
+	background-color: #014a96;
+	
+}
+
+#container {
+	
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#logo{
+	
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+	
+}
+
+#menu {
+	
+	width: 30%;
+	height: auto;
+	background-color: #ffdd00;
+	
+}
+
+#formFilm {
+	
+	background-color: #ffdd00;
+	
+}
+
+textarea {
+	
+	resize: none;
+	
+}
+
+#invio {
+	
+	height: 50px;
+	
+}
+
+#sx {
+	
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	
+}
+
+#dx {
+	
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+	
+}
+
+.sub {
+	
+	background-color: #014a96;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.reset {
+	
+	background-color: red;
+	text-decoration: none;
+	
+}
+
+.reset:hover {
+	
+	background-color: black;
+	color: red;
+	text-decoration: none;
+	
+}
