@@ -25,9 +25,41 @@ body {
 
 #menu {
 	
-	width: 30%;
-	height: auto;
+	margin: auto;
+	width: 900px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 13px;
 	background-color: #ffdd00;
+	
+}
+
+ul {
+	
+	display: flex;
+	gap: 30px;
+	list-style: none;
+	
+}
+
+li:hover {
+	
+	background-color: blue;
+	
+}
+
+a {
+	
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+	
+}
+
+a:hover {
+	
+	color: yellow;
 	
 }
 
